@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhimanyu Chapagain - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="jawascript.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#about" class="logo">Abhimanyu Chapagain</a>
+      <nav>
+        <ul>
+          <li><a href="#about" class="nav-link active">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">My Projects</a></li>
+          <li><a href="#tabletennis" class="nav-link">Table Tennis</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="mode-toggle" title="Toggle Dark/Light Mode">🌙</button>
+      <div class="hamburger" tabindex="0" role="button" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section">
+      <div class="about-container">
+        <img src="ll.JPG" alt="Abhimanyu Chapagain" class="profile-photo" loading="lazy" />
+        <div class="about-text">
+          <h1>Hello, I'm Abhimanyu Chapagain</h1>
+          <p id="typewriter" class="typewriter"></p>
+          <p>I am a passionate coder, district-level table tennis champion, and a fun person to be around. I combine sports discipline with the logic of programming.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section hidden">
+      <h2>My Coding Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" alt="JavaScript" />
+          <h3>JavaScript</h3>
+          <p>Modern ES6+, DOM, and interactive websites.</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="HTML5" />
+          <h3>HTML5</h3>
+          <p>Semantic, accessible, clean structure.</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="CSS3" />
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, Animations, and Responsive UI.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section hidden">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://source.unsplash.com/400x250/?code,project" alt="Portfolio Project" />
+          <h3>Portfolio Website</h3>
+          <p>A personal dark-themed website made with HTML, CSS & JS.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="https://source.unsplash.com/400x250/?todo,app" alt="Todo App" />
+          <h3>To-Do List App</h3>
+          <p>A clean, minimal to-do list app with local storage and theme switcher.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="tabletennis" class="section hidden">
+      <h2>Table Tennis Achievements</h2>
+      <img src="o9.JPG" alt="Playing Table Tennis" class="section-image" />
+      <p>I am a district-level table tennis winner. The sport shaped my focus, reflex, and competitiveness—all of which influence how I code and solve problems.</p>
+    </section>
+
+    <section id="contact" class="section hidden">
+      <h2>Contact Me</h2>
+      <ul>
+        <li>Email: <a href="mailto:abhimanyu@example.com">abhimanyuchapagain57@gmail.com</a></li>
+        <li>Facebook: <a href="https://www.facebook.com/abhimanyu.chapagain.5" target="_blank">Abhimanyu Chapagain</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Abhimanyu Chapagain. All rights reserved.</p>
+  </footer>
+</body>
+</html>
